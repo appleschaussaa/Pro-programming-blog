@@ -90,8 +90,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 ​
 - [Example resource 1](https://expressjs.com/en/resources/middleware/session.html) - needed this for setting up the session and cookie section
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](https://sequelize.org/docs/v6/core-concepts/model-basics/#timestamps) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](https://codingstatus.com/how-to-update-data-using-node-js-and-mysql/) - Gave some good ideas for updating but doesn't quite do it the way we were taught.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.

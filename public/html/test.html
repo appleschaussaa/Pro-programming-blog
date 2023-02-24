@@ -1,3 +1,4 @@
+<!-- main -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,29 +9,30 @@
     <title>Pro-programming blog</title>
 </head>
 <body>
-  <header class="display-flex justify-space-between align-center p-2">
+    <header class="display-flex>
     <section id="top-banner">
         <nav class="buttons">
-            <button type="btn" id="home">Link</button>
-            <button type="btn" id="dashboard">Link</button>
-            <button type="btn" id="login">Link</button>
-                <!-- {{#if logged_in}} -->
+            <button type="btn" id="home">home</button>
+            <button type="btn" id="dashboard">dashboard</button>
+                {{#if logged_out}}
+            <button type="btn" id="login">login</button>
+                {{/if}}
+                {{#if logged_in}}
             <button class="btn" id="logout">logout</button>
-                <!-- {{/if}} -->
+                {{/if}}
         </nav>
         <h1 id="title">
-            Welcome to Pro-programming Blog
+            The Pro-programming Blog
         </h1>
     </section>
   </header>
   <main id="display-page">
-    <!-- {{{ body }}} -->
+    {{{ body }}}
   </main>
-  <footer>
-      
-  </footer>
-  <!-- {{#if logged_in}} -->
+  {{#if logged_in}}
   <script src="/public/js/logout.js"></script>
-  <!-- {{/if}} -->
+  {{/if}}
 </body>
 </html>
+
+<!-- Dashboard -->

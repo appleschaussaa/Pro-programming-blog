@@ -1,0 +1,14 @@
+[
+    {
+        "title": "First Blog",
+        "text": "testing first seed"
+    },
+    {
+        "title": "Second Blog",
+        "text": "testing a second seed"
+    },
+    {
+        "title": "Third Blog",
+        "text": "testing a third seed"
+    }
+]
