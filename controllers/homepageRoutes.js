@@ -4,18 +4,18 @@ const needAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
     try {
-        const blogData = await Blogs.findAll({
-            include: [
-                {
-                    model: Blogger,
-                    attributes: ['name'],
-                },
+        const bloggerData = await Blogger.findAll({
+            attributes: {
+                exclude: ['password']
+            },
+            order: [
+                ['name', 'ASC']
             ],
         });
-        const blogs = blogData.map((blogs) => blogData.get({ plain: true }));
+        const bloggers = bloggerData.map((blog) => blog.get({ plain: true }));
         res.render('homepage', {
-            blogs,
-            logged_in: req.session.logged_in
+            bloggers,
+            logged_in: req.session.logged_in,
         });
     } catch (err) {
         res.status(500).json(err);

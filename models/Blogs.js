@@ -26,13 +26,8 @@ Blogs.init(
               key: 'id',
             },
           },
-        // name: {
-        //     type: DataTypes.STRING,
-        //     allowNull: false,
-        //     autoIncrement: false
-        // },
         // created_at: {
-        //     type: sequelize.DATE,
+        //     type: DataTypes.DATE,
         //     defaultValue: sequelize.NOW,
         //     references: {
         //         model: 'blogger',

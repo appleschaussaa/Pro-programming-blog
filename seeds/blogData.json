@@ -1,7 +1,9 @@
 [
     {
+        "id": 1,
         "title": "First Blog",
-        "text": "testing first seed"
+        "text": "testing first seed",
+        "user_id": "1"
     },
     {
         "title": "Second Blog",
