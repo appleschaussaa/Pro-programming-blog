@@ -4,7 +4,6 @@
 ​
 - [Overview](#overview)
  - [The challenge](#the-challenge)
- - [Screenshot](#screenshot)
  - [Links](#links)
 - [My process](#my-process)
  - [Built with](#built-with)
@@ -13,105 +12,49 @@
  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-​
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-​
+
 ## Overview
 ​
 ### The challenge
 ​
 Users should be able to:
 ​
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-​
-### Screenshot
-​
-![](./screenshot.jpg)
-​
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-​
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-​
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-​
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+- Create a full stack MVC app
+- Understand how to implement handlebars files
 ​
 ### Links
 ​
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/appleschaussaa/Pro-programming-blog)
+- Live Site URL: [Add live site URL here](https://fierce-waters-55750.herokuapp.com)
 ​
 ## My process
 ​
 ### Built with
 ​
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-​
-​
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-​
+- Node.js
+- MySQL
+- Express & sequelize
+- Handlebars
+
 ### What I learned
-​
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-​
-To see how you can add code snippets, see below:
-​
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-​
-```css
-.proud-of-this-css {
- color: papayawhip;
-}
-```
-​
-```js
-const proudOfThisFunc = () => {
- console.log("🎉");
-};
-```
-​
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-​
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
+This was a little intense of a challenge with the file size number and the introduction of handlebars. I learned a bit too late on how to implement the view files correctly and it will show. This is amazing though now that I understand what can be done and the use of template and partials to dramatically change just certain parts of the display/view.
 ​
 ### Continued development
 ​
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-​
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I still have so much to do and it will take awhile to recover from the damage I did early on before handlebars clicked a little bit more. What I will do next is finish up the handlebars and make sure the routes target them correcly. I made files that were missing that I am certain will be used. I was able to get some help from the TA's on some early issues but I did not work on getting the view section to work until the weekend before it was due and couldnt not figure it untill the last second.
 ​
 ### Useful resources
 ​
-- [Example resource 1](https://expressjs.com/en/resources/middleware/session.html) - needed this for setting up the session and cookie section
-- [Example resource 2](https://sequelize.org/docs/v6/core-concepts/model-basics/#timestamps) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://codingstatus.com/how-to-update-data-using-node-js-and-mysql/) - Gave some good ideas for updating but doesn't quite do it the way we were taught.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-​
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [resource 1](https://expressjs.com/en/resources/middleware/session.html) - needed this for setting up the session and cookie section
+- [resource 2](https://sequelize.org/docs/v6/core-concepts/model-basics/#timestamps) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [resource 2](https://codingstatus.com/how-to-update-data-using-node-js-and-mysql/) - Gave some good ideas for updating but doesn't quite do it the way we were taught.
 ​
 ## Author
- Your Name
-- Website - [Add your name here](https://www.your-site.com)
-- GitHub - [yourusername](https://github.com/yourusername)
-​
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+Robert Schauss
+- GitHub - [appleschaussaa](https://github.com/appleschaussaa)
 ​
 ## Acknowledgments
 ​
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-​
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to thank the instructor and the TAs for helping out. I was stuck a few times and the office hours definitely helped but it was before I tried to get the view section to work and could not progress any further because of that.
 
